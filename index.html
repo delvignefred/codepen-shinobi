@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr-BE" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shinobi | a sneaky minimalist menu</title>
+  <link rel="stylesheet" href="./dist/style.css">
+  <!-- ✑ preloader -->
+  <link rel="preload" as="image" imagesrcset="./assets/skills.webp 1x, ./assets/skills-hd.webp 2x" fetchpriority="high">
+  <link rel="preload" as="image" imagesrcset="./assets/spells.webp 1x, ./assets/spells-hd.webp 2x" fetchpriority="high">
+</head>
+
+<body>
+  <div id="navigation">
+    <main>
+      <section>
+        <h1>Shinobi<mark>忍者</mark></h1>
+        <article>
+          <details name="accordion" open>
+            <summary class="details__summary__profil">Profil</summary>
+            <p>A shadow spy and unparalleled warrior, he can work alone or as part of a team. Depending on the clan's
+              needs, he serves as an informant or can be deployed as an assassin.</p>
+          </details>
+        </article>
+        <article>
+          <details name="accordion">
+            <summary class="details__summary__skills">Skills</summary>
+            <p>A master of disguise and concealment, he can seamlessly blend into the population to gather the
+              information needed to complete his mission.
+              <br><br>He also excels in ancestral martial arts, whose secrets he and his clan carefully preserve.
+            </p>
+          </details>
+        </article>
+        <article>
+          <details name="accordion">
+            <summary class="details__summary__spells">Spells</summary>
+            <p>Drawing inspiration from the esoteric doctrines of the Yamabushi, he practices occult techniques to gain
+              psychic and supernatural powers.</p>
+          </details>
+        </article>
+      </section>
+      <aside>
+        <div class="main__aside__profil"></div>
+        <div class="main__aside__skills"></div>
+        <div class="main__aside__spells"></div>
+      </aside>
+    </main>
+  </div>
+  <footer>
+    <a href="https://x.com/delvignefred" target="_blank">
+      <svg id="social-x-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.76 13.84">
+        <path
+          d="m10.72,12.67h1.95L4.06,1.17h-1.95l8.61,11.5Zm-2.03-6.85l5.81,7.77h-4.24l-3.92-5.24L1.49,13.59H.25l5.53-5.98L.28.25h4.24l3.61,4.82L12.6.25h1.24l-5.15,5.57Z" />
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/delvignefred/" target="_blank">
+      <svg id="social-linkedin-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.17 106.17">
+        <path
+          d="m2.68,34.04h20.69v72.11H2.68V34.04h0Zm9.82-9.02h-.15C4.86,25.02,0,19.51,0,12.53S5,0,12.64,0s12.33,5.39,12.48,12.51c0,6.98-4.84,12.51-12.62,12.51h0Zm93.67,81.14h-23.46v-37.32c0-9.77-3.67-16.43-11.74-16.43-6.17,0-9.61,4.49-11.2,8.84-.6,1.55-.51,3.72-.51,5.89v39.02h-23.25s.3-66.11,0-72.12h23.25v11.32c1.37-4.95,8.8-12.01,20.65-12.01,14.71,0,26.26,10.38,26.26,32.71v40.11h0Z" />
+      </svg>
+    </a>
+  </footer>
+  <script src="./dist/script.js"></script>
+</body>
+
+</html>

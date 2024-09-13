@@ -41,15 +41,16 @@ body {
   -ms-user-select: none;
   user-select: none;
 
-  cursor: url("./assets/kunai-a.png"), default;
+  cursor: url("./assets/kunai-a.png"),
+    default;
 
   & #navigation {
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
 
     & main {
-      width: 100%;
-      height: 100%;
+      width: inherit;
+      height: inherit;
 
       display: flex;
       justify-content: center;
@@ -139,7 +140,7 @@ body {
             --summary-font-weight: 500;
             --summary-font-size: clamp(1rem, 2.2dvmin + 0.75rem, 2rem);
             --summary-line-height: 3rlh;
-            --summary-font-family: "Chakra Petch", system-ui;
+            --summary-font-family: "Chakra Petch", sans-serif;
 
             --shuriken-transition-property: transform;
             --shuriken-transition-duration: 0.5s;
@@ -209,7 +210,6 @@ body {
           }
         }
       }
-      
       & aside {
         width: 100%;
         height: 100%;
@@ -221,21 +221,25 @@ body {
         --smoke-animation-fill-mode: forwards;
 
         & div {
-          width: 100%;
-          height: 100%;
+          width: inherit;
+          height: inherit;
 
           &.main__aside__profil {
             display: block;
 
             background: -webkit-image-set(
-                url("./assets/profil.webp") 1x,
-                url("./assets/profil-hd.webp") 2x
+                url("./assets/profil.webp")
+                  1x,
+                url("./assets/profil-hd.webp")
+                  2x
               )
               no-repeat 50% 100% / contain;
 
             background: image-set(
-                url("./assets/profil.webp") 1x,
-                url("./assets/profil-hd.webp") 2x
+                url("./assets/profil.webp")
+                  1x,
+                url("./assets/profil-hd.webp")
+                  2x
               )
               no-repeat 50% 100% / contain;
 
@@ -259,14 +263,18 @@ body {
             display: none;
 
             background: -webkit-image-set(
-                url("./assets/skills.webp") 1x,
-                url("./assets/skills-hd.webp") 2x
+                url("./assets/skills.webp")
+                  1x,
+                url("./assets/skills-hd.webp")
+                  2x
               )
               no-repeat 50% 100% / contain;
 
             background: image-set(
-                url("./assets/skills.webp") 1x,
-                url("./assets/skills-hd.webp") 2x
+                url("./assets/skills.webp")
+                  1x,
+                url("./assets/skills-hd.webp")
+                  2x
               )
               no-repeat 50% 100% / contain;
 
@@ -290,14 +298,18 @@ body {
             display: none;
 
             background: -webkit-image-set(
-                url("./assets/spells.webp") 1x,
-                url("./assets/spells-hd.webp") 2x
+                url("./assets/spells.webp")
+                  1x,
+                url("./assets/spells-hd.webp")
+                  2x
               )
               no-repeat 50% 100% / contain;
 
             background: image-set(
-                url("./assets/spells.webp") 1x,
-                url("./assets/spells-hd.webp") 2x
+                url("./assets/spells.webp")
+                  1x,
+                url("./assets/spells-hd.webp")
+                  2x
               )
               no-repeat 50% 100% / contain;
 
@@ -379,116 +391,146 @@ body {
 }
 @keyframes cursor-move {
   from {
-    cursor: url("./assets/kunai-a.png"), pointer;
+    cursor: url("./assets/kunai-a.png"),
+      pointer;
   }
   to {
-    cursor: url("./assets/kunai-b.png"), pointer;
+    cursor: url("./assets/kunai-b.png"),
+      pointer;
   }
 }
 @keyframes smoke-animation-1 {
   0% {
-    background: url("./assets/smoke-1.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-1.webp")
+      no-repeat 50% 100% / cover;
   }
   10% {
-    background: url("./assets/smoke-2.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-2.webp")
+      no-repeat 50% 100% / cover;
   }
   20% {
-    background: url("./assets/smoke-3.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-3.webp")
+      no-repeat 50% 100% / cover;
   }
   30% {
-    background: url("./assets/smoke-4.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-4.webp")
+      no-repeat 50% 100% / cover;
   }
   40% {
-    background: url("./assets/smoke-5.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-5.webp")
+      no-repeat 50% 100% / cover;
   }
   50% {
-    background: url("./assets/smoke-6.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-6.webp")
+      no-repeat 50% 100% / cover;
   }
   60% {
-    background: url("./assets/smoke-7.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-7.webp")
+      no-repeat 50% 100% / cover;
   }
   70% {
-    background: url("./assets/smoke-8.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-8.webp")
+      no-repeat 50% 100% / cover;
   }
   80%,
   90%,
   100% {
-    background: url("./assets/smoke-9.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-9.webp")
+      no-repeat 50% 100% / cover;
   }
 }
 @keyframes smoke-animation-2 {
   0% {
-    background: url("./assets/smoke-1.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-1.webp")
+      no-repeat 50% 100% / cover;
   }
   10% {
-    background: url("./assets/smoke-2.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-2.webp")
+      no-repeat 50% 100% / cover;
   }
   20% {
-    background: url("./assets/smoke-3.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-3.webp")
+      no-repeat 50% 100% / cover;
   }
   30% {
-    background: url("./assets/smoke-4.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-4.webp")
+      no-repeat 50% 100% / cover;
   }
   40% {
-    background: url("./assets/smoke-5.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-5.webp")
+      no-repeat 50% 100% / cover;
   }
   50% {
-    background: url("./assets/smoke-6.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-6.webp")
+      no-repeat 50% 100% / cover;
   }
   60% {
-    background: url("./assets/smoke-7.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-7.webp")
+      no-repeat 50% 100% / cover;
   }
   70% {
-    background: url("./assets/smoke-8.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-8.webp")
+      no-repeat 50% 100% / cover;
   }
   80%,
   90%,
   100% {
-    background: url("./assets/smoke-9.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-9.webp")
+      no-repeat 50% 100% / cover;
   }
 }
 @keyframes smoke-animation-3 {
   0% {
-    background: url("./assets/smoke-1.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-1.webp")
+      no-repeat 50% 100% / cover;
   }
   10% {
-    background: url("./assets/smoke-2.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-2.webp")
+      no-repeat 50% 100% / cover;
   }
   20% {
-    background: url("./assets/smoke-3.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-3.webp")
+      no-repeat 50% 100% / cover;
   }
   30% {
-    background: url("./assets/smoke-4.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-4.webp")
+      no-repeat 50% 100% / cover;
   }
   40% {
-    background: url("./assets/smoke-5.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-5.webp")
+      no-repeat 50% 100% / cover;
   }
   50% {
-    background: url("./assets/smoke-6.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-6.webp")
+      no-repeat 50% 100% / cover;
   }
   60% {
-    background: url("./assets/smoke-7.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-7.webp")
+      no-repeat 50% 100% / cover;
   }
   70% {
-    background: url("./assets/smoke-8.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-8.webp")
+      no-repeat 50% 100% / cover;
   }
   80%,
   90%,
   100% {
-    background: url("./assets/smoke-9.webp") no-repeat 50% 100% / cover;
+    background: url("./assets/smoke-9.webp")
+      no-repeat 50% 100% / cover;
   }
 }
 
 /*** ◰ media queries ***/
 /** orientation portrait **/
+
 @media (max-aspect-ratio: 4/3) {
   & section {
     & h1 {
       & mark {
         writing-mode: vertical-lr;
-        padding-block: 1dvmin 0;
+        padding-block: 1vmin 0;
 
-        inset: auto auto 2dvmin auto;
+        inset: auto auto 2vmin auto;
       }
     }
   }

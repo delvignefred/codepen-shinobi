@@ -2,10 +2,9 @@
 
 :root {
   --system-color-light: oklch(100% 0 0);
+  --system-color-gray-100: oklch(45% 0 0);
+  --system-color-gray-200: oklch(35% 0 0);
   --system-color-dark: oklch(0% 0 0);
-  --system-color-verylightgray: oklch(65% 0 0);
-  --system-color-darkgray: oklch(35% 0 0);
-  --system-color-lightgray: oklch(45% 0 0);
   --system-color-gold: oklch(78.49% 0.071 105.25);
 }
 
@@ -103,7 +102,7 @@ body {
           font: var(--h1-font-style) var(--h1-font-variant)
             var(--h1-font-weight) var(--h1-font-size) / var(--h1-line-height)
             var(--h1-font-family);
-          color: var(--system-color-darkgray);
+          color: var(--system-color-gray-200);
 
           padding-block: 0dvmin 3dvmin;
 
@@ -162,7 +161,7 @@ body {
               font: var(--paragraph-font-style) var(--paragraph-font-variant)
                 var(--paragraph-font-weight) var(--paragraph-font-size) /
                 var(--paragraph-line-height) var(--paragraph-font-family);
-              color: var(--system-color-lightgray);
+              color: var(--system-color-gray-100);
 
               /* ✑ paragraph formatting */
               text-align: start;
@@ -184,7 +183,7 @@ body {
               font: var(--summary-font-style) var(--summary-font-variant)
                 var(--summary-font-weight) var(--summary-font-size) /
                 var(--summary-line-height) var(--summary-font-family);
-              color: var(--system-color-darkgray);
+              color: var(--system-color-gray-200);
 
               list-style: none;
 

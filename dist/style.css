@@ -77,7 +77,7 @@ body {
         --mark-font-variant: normal;
         --mark-font-weight: 400;
         --mark-font-size: clamp(1rem, 2.2dvmin + 0.75rem, 2rem);
-        --mark-line-height: 2.2rlh;
+        --mark-line-height: 1rlh;
         --mark-font-family: "Zen Kaku Gothic New", sans-serif;
         --mark-letter-spacing: 0.2ch;
 

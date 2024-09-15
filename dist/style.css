@@ -70,14 +70,14 @@ body {
         --h1-font-variant: normal;
         --h1-font-weight: 600;
         --h1-font-size: clamp(1.5rem, 3.8dvmin + 0.75rem, 3rem);
-        --h1-line-height: 4rlh;
+        --h1-line-height: 1rlh;
         --h1-font-family: "Poppins", sans-serif;
 
         --mark-font-style: normal;
         --mark-font-variant: normal;
         --mark-font-weight: 400;
         --mark-font-size: clamp(1rem, 2.2dvmin + 0.75rem, 2rem);
-        --mark-line-height: 2.2rlh;
+        --mark-line-height: 1rlh;
         --mark-font-family: "Zen Kaku Gothic New", sans-serif;
         --mark-letter-spacing: 0.2ch;
 
@@ -138,7 +138,7 @@ body {
             --summary-font-variant: normal;
             --summary-font-weight: 500;
             --summary-font-size: clamp(1rem, 2.2dvmin + 0.75rem, 2rem);
-            --summary-line-height: 3rlh;
+            --summary-line-height: 1rlh;
             --summary-font-family: "Chakra Petch", sans-serif;
 
             --shuriken-transition-property: transform;

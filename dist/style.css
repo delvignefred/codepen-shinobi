@@ -44,12 +44,12 @@ body {
     default;
 
   & #navigation {
-    inline-size: inherit;
-    block-size: inherit;
+    inline-size: 100%;
+    block-size: 100%;
 
     & main {
-      inline-size: inherit;
-      block-size: inherit;
+      inline-size: 100%;
+      block-size: 100%;
 
       display: flex;
       justify-content: center;
@@ -220,8 +220,8 @@ body {
         --smoke-animation-fill-mode: forwards;
 
         & div {
-          inline-size: inherit;
-          block-size: inherit;
+          inline-size: 100%;
+          block-size: 100%;
 
           &.main__aside__profil {
             display: block;

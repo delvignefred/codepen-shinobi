@@ -64,7 +64,7 @@ body {
         inline-size: 100%;
         block-size: 100%;
 
-        flex: 0 0 50%;
+        flex: 1 1 50%;
 
         --h1-font-style: normal;
         --h1-font-variant: normal;
@@ -213,7 +213,7 @@ body {
         inline-size: 100%;
         block-size: 100%;
 
-        flex: 0 0 50%;
+        flex: 1 1 50%;
 
         --smoke-animation-duration: 0.4s;
         --smoke-animation-timing-function: ease-in;

@@ -343,7 +343,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 
     -webkit-animation: opening 1.2s ease-in;
     animation: opening 1.2s ease-in;

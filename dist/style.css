@@ -9,9 +9,9 @@
   --system-color-gold: oklch(78.49% 0.071 105.25);
 }
 
-@layer normalize, main;
+@layer normalize, master;
 
-@layer main {
+@layer master {
   *,
   *::after,
   *::before {

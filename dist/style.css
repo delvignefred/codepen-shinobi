@@ -225,14 +225,14 @@
               display: block;
 
               background: -webkit-image-set(
-                  url("./assets/profil.webp") 1x,
-                  url("./assets/profil-hd.webp") 2x
+                  url("./assets/profil.avif") 1x,
+                  url("./assets/profil-hd.avif") 2x
                 )
                 no-repeat 50% 100% / contain;
 
               background: image-set(
-                  url("./assets/profil.webp") 1x,
-                  url("./assets/profil-hd.webp") 2x
+                  url("./assets/profil.avif") 1x,
+                  url("./assets/profil-hd.avif") 2x
                 )
                 no-repeat 50% 100% / contain;
 
@@ -256,14 +256,14 @@
               display: none;
 
               background: -webkit-image-set(
-                  url("./assets/skills.webp") 1x,
-                  url("./assets/skills-hd.webp") 2x
+                  url("./assets/skills.avif") 1x,
+                  url("./assets/skills-hd.avif") 2x
                 )
                 no-repeat 50% 100% / contain;
 
               background: image-set(
-                  url("./assets/skills.webp") 1x,
-                  url("./assets/skills-hd.webp") 2x
+                  url("./assets/skills.avif") 1x,
+                  url("./assets/skills-hd.avif") 2x
                 )
                 no-repeat 50% 100% / contain;
 
@@ -287,14 +287,14 @@
               display: none;
 
               background: -webkit-image-set(
-                  url("./assets/spells.webp") 1x,
-                  url("./assets/spells-hd.webp") 2x
+                  url("./assets/spells.avif") 1x,
+                  url("./assets/spells-hd.avif") 2x
                 )
                 no-repeat 50% 100% / contain;
 
               background: image-set(
-                  url("./assets/spells.webp") 1x,
-                  url("./assets/spells-hd.webp") 2x
+                  url("./assets/spells.avif") 1x,
+                  url("./assets/spells-hd.avif") 2x
                 )
                 no-repeat 50% 100% / contain;
 
@@ -384,95 +384,95 @@
   }
   @keyframes smoke-animation-1 {
     0% {
-      background: url("./assets/smoke-1.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-1.avif") no-repeat 50% 100% / cover;
     }
     10% {
-      background: url("./assets/smoke-2.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-2.avif") no-repeat 50% 100% / cover;
     }
     20% {
-      background: url("./assets/smoke-3.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-3.avif") no-repeat 50% 100% / cover;
     }
     30% {
-      background: url("./assets/smoke-4.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-4.avif") no-repeat 50% 100% / cover;
     }
     40% {
-      background: url("./assets/smoke-5.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-5.avif") no-repeat 50% 100% / cover;
     }
     50% {
-      background: url("./assets/smoke-6.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-6.avif") no-repeat 50% 100% / cover;
     }
     60% {
-      background: url("./assets/smoke-7.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-7.avif") no-repeat 50% 100% / cover;
     }
     70% {
-      background: url("./assets/smoke-8.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-8.avif") no-repeat 50% 100% / cover;
     }
     80%,
     90%,
     100% {
-      background: url("./assets/smoke-9.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-9.avif") no-repeat 50% 100% / cover;
     }
   }
   @keyframes smoke-animation-2 {
     0% {
-      background: url("./assets/smoke-1.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-1.avif") no-repeat 50% 100% / cover;
     }
     10% {
-      background: url("./assets/smoke-2.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-2.avif") no-repeat 50% 100% / cover;
     }
     20% {
-      background: url("./assets/smoke-3.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-3.avif") no-repeat 50% 100% / cover;
     }
     30% {
-      background: url("./assets/smoke-4.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-4.avif") no-repeat 50% 100% / cover;
     }
     40% {
-      background: url("./assets/smoke-5.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-5.avif") no-repeat 50% 100% / cover;
     }
     50% {
-      background: url("./assets/smoke-6.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-6.avif") no-repeat 50% 100% / cover;
     }
     60% {
-      background: url("./assets/smoke-7.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-7.avif") no-repeat 50% 100% / cover;
     }
     70% {
-      background: url("./assets/smoke-8.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-8.avif") no-repeat 50% 100% / cover;
     }
     80%,
     90%,
     100% {
-      background: url("./assets/smoke-9.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-9.avif") no-repeat 50% 100% / cover;
     }
   }
   @keyframes smoke-animation-3 {
     0% {
-      background: url("./assets/smoke-1.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-1.avif") no-repeat 50% 100% / cover;
     }
     10% {
-      background: url("./assets/smoke-2.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-2.avif") no-repeat 50% 100% / cover;
     }
     20% {
-      background: url("./assets/smoke-3.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-3.avif") no-repeat 50% 100% / cover;
     }
     30% {
-      background: url("./assets/smoke-4.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-4.avif") no-repeat 50% 100% / cover;
     }
     40% {
-      background: url("./assets/smoke-5.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-5.avif") no-repeat 50% 100% / cover;
     }
     50% {
-      background: url("./assets/smoke-6.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-6.avif") no-repeat 50% 100% / cover;
     }
     60% {
-      background: url("./assets/smoke-7.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-7.avif") no-repeat 50% 100% / cover;
     }
     70% {
-      background: url("./assets/smoke-8.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-8.avif") no-repeat 50% 100% / cover;
     }
     80%,
     90%,
     100% {
-      background: url("./assets/smoke-9.webp") no-repeat 50% 100% / cover;
+      background: url("./assets/smoke-9.avif") no-repeat 50% 100% / cover;
     }
   }
 

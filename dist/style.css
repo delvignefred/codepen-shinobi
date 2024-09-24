@@ -72,14 +72,14 @@
           --h1-font-variant: normal;
           --h1-font-weight: 600;
           --h1-font-size: clamp(1.5rem, 3.8dvmin + 0.75rem, 3rem);
-          --h1-line-height: 4rlh;
+          --h1-line-height: calc(var(--h1-font-size) * 1.5);
           --h1-font-family: "Poppins", sans-serif;
 
           --cite-font-style: normal;
           --cite-font-variant: normal;
           --cite-font-weight: 400;
           --cite-font-size: clamp(1rem, 2.2dvmin + 0.75rem, 2rem);
-          --cite-line-height: 2.6rlh;
+          --cite-line-height: calc(var(--cite-font-size) * 1.5);
           --cite-font-family: "Zen Kaku Gothic New", sans-serif;
           --cite-letter-spacing: 0.2ch;
 
@@ -106,7 +106,7 @@
               var(--h1-font-family);
             color: var(--system-color-gray-200);
 
-            padding-block: 0dvmin 3dvmin;
+            padding-block: 0dvmin 2.4dvmin;
 
             & cite {
               position: relative;
@@ -138,7 +138,7 @@
               --summary-font-variant: normal;
               --summary-font-weight: 500;
               --summary-font-size: clamp(1rem, 2.2dvmin + 0.75rem, 2rem);
-              --summary-line-height: 3rlh;
+              --summary-line-height: calc(var(--summary-font-size) * 1.5);
               --summary-font-family: "Chakra Petch", sans-serif;
 
               --shuriken-transition-property: transform;
@@ -152,7 +152,7 @@
               --paragraph-font-variant: normal;
               --paragraph-font-weight: 300;
               --paragraph-font-size: clamp(0.8rem, 1.1dvmin + 0.75rem, 1.5rem);
-              --paragraph-line-height: calc(1rem * 1.5);
+              --paragraph-line-height: calc(var(--paragraph-font-size) * 1.5);
               --paragraph-font-family: "Poppins", sans-serif;
 
               border-top: 0.1dvmin solid var(--system-color-dark);
@@ -172,7 +172,7 @@
                 overflow-wrap: normal;
 
                 padding-inline: 0 5dvmin;
-                padding-block: 1.6dvmin 2.4dvmin;
+                padding-block: 1.4dvmin 2.6dvmin;
               }
 
               & summary {
@@ -198,6 +198,7 @@
 
                   inline-size: clamp(1.5rem, 3vmin + 0.8rem, 2.5rem);
                   block-size: clamp(1.5rem, 3vmin + 0.8rem, 2.5rem);
+                  line-height: 100%;
 
                   transition: var(--shuriken-transition-property)
                     var(--shuriken-transition-duration)

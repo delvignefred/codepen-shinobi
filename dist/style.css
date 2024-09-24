@@ -23,7 +23,6 @@
 
   html {
     font-size: 16px; /* ✑ clamp(1rem, 2.2dvmin + 0.75rem, 2rem); */
-    line-height: 1cap;
   }
 
   body {
@@ -106,7 +105,7 @@
               var(--h1-font-family);
             color: var(--system-color-gray-200);
 
-            padding-block: 0dvmin 2.dvmin;
+            padding-block: 0dvmin 2.4dvmin;
 
             & cite {
               position: relative;

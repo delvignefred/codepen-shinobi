@@ -152,7 +152,7 @@
               --paragraph-font-variant: normal;
               --paragraph-font-weight: 300;
               --paragraph-font-size: clamp(0.8rem, 1.1dvmin + 0.75rem, 1.5rem);
-              --paragraph-line-height: 2.5rlh;
+              --paragraph-line-height: calc(1rem * 1.5);
               --paragraph-font-family: "Poppins", sans-serif;
 
               border-top: 0.1dvmin solid var(--system-color-dark);

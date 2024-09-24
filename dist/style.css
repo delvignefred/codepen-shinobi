@@ -106,7 +106,7 @@
               var(--h1-font-family);
             color: var(--system-color-gray-200);
 
-            padding-block: 0dvmin 2.4dvmin;
+            padding-block: 0dvmin 2.dvmin;
 
             & cite {
               position: relative;

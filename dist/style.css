@@ -2,11 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Poppins:wght@300;600&family=Zen+Kaku+Gothic+New:wght@300;400&display=swap");
 
 :root {
-  --system-color-light: oklch(100% 0 0);
-  --system-color-gray-100: oklch(45% 0 0);
-  --system-color-gray-200: oklch(35% 0 0);
-  --system-color-dark: oklch(0% 0 0);
-  --system-color-gold: oklch(78.49% 0.071 105.25);
+  --system-color-light: oklab(100% 0 0);
+  --system-color-dark: oklab(0% 0 0);
+  --system-color-gray-100: color-mix(
+    in oklab,
+    var(--system-color-light) 45%,
+    var(--system-color-dark) 55%
+  );
+  --system-color-gray-200: color-mix(
+    in oklab,
+    var(--system-color-light) 35%,
+    var(--system-color-dark) 65%
+  );
+  --system-color-gold: oklab(78.49% -0.02 0.07);
 }
 
 @layer normalize, master;
@@ -65,7 +73,6 @@
         & section {
           inline-size: 50%;
           block-size: 100%;
-
 
           --h1-font-style: normal;
           --h1-font-variant: normal;

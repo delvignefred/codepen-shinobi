@@ -186,7 +186,7 @@
                 justify-content: space-between;
                 align-items: center;
 
-                letter-spacing: .02cap;
+                letter-spacing: .03ch;
 
                 font: var(--summary-font-style) var(--summary-font-variant)
                   var(--summary-font-weight) var(--summary-font-size) /
